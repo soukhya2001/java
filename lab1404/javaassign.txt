@@ -1,0 +1,5 @@
+Q 5
+Explanation: y is not a local variable. It is declared inside the block so it cannot accessed outside the block.
+
+Q6
+Explanation: Initial value of g was 3 then pre-incremented g So the value of g becomes 4.Therefore g*8 that is 4*8 becomes 32
