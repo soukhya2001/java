@@ -1,0 +1,136 @@
+<! doctype html>
+<html>
+<head><title>  HTML FORM</title></head>
+
+<style>
+body{
+
+ background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);  
+ border-collapse: collapse; 
+ border: 4px solid #000000;
+ border-style: dashed;
+ }
+h1{
+  text-align:center;
+color :purple;
+  
+}
+p{
+ text-align:center;
+border: 10px
+}
+   
+
+div{
+ font-family: verdana; 
+ font-size: 16px;     
+ font-style: normal; 
+ font-weight: bold; 
+ color: purple;
+ text-align: center; 
+ 
+}
+label{
+ font-family: verdana; 
+ color:purple; 
+ font-size: 16px; 
+ font-style: normal;
+ font-weight: bold;
+ background: white  
+ border-collapse: collapse; 
+
+  
+}
+
+input[type=text], input[type=email], input[type=number]{
+ width: 20%;
+ padding: 6px 12px;
+ margin: 5px 0;
+ box-sizing: border-box;
+}
+input[type=submit]{
+ width: 10%;
+ padding: 8px 12px;
+ margin: 5px 0;
+ box-sizing: border-box;
+}
+</style>
+<body>
+
+<p>
+   <a href="https://www.spndoshicollege.com/"><img src=  " SPND.jpg" title="logo" align=" LOGO"   class="center" height="100px"  width="100px"> </a><br>
+</p>
+ <h1> REGISTRATION FORM</h1>
+<div  id ="reg-form">
+<form> 
+<label for="first -name "> FIRST NAME:</label>  
+<input type="text" name="first name"  placeholder="enter "  maxlength ="15" minlength="2" required>&nbsp;&nbsp;&nbsp;
+
+<label for="last -name "> LAST NAME:</label>  
+<input type="text" name="last name"  placeholder="enter "  maxlength ="15" minlength="2" required><br><br><br>
+
+<div>
+SELECT GENDER:
+<label for =" gender-male"> MALE</label>
+<input type="radio" name="gender-choice"  value="M"  >&nbsp;
+
+<label for =" gender-female"> FEMALE</label>
+<input type="radio" name="gender-choice" value="F"  >
+
+
+<label for =" gender-other"> OTHER</label>
+<input type="radio" name="gender-choice"  value="O" >
+</div><br>
+<div>
+
+ <label for="email" >  EMAIL</label>
+<input type="email"   name="email"  placeholder "abc@gmail.com">&nbsp;&nbsp;&nbsp;
+ 
+
+</div><br/>
+<div>
+ ENTER YOUR AGE:<input type="number"/>
+</div><br/><br/>
+
+<div><br><br>
+ <label for="STAN" >STANDARD</label>
+<select>
+<option value="0"selected default>SELECT</optional>
+<option   value="1"> FIRST</optional>
+<option   value="2"> SECOND</optional>
+<option   value="3"> THIRD</optional>
+<option   value="4"> FOURTH</optional>
+<option   value="5"> FIFTH</optional>
+<option   value="6"> SIXTH</optional>
+<option   value="7"> SEVENTH</optional>
+<option   value="8"> EIGHTTH</optional>
+<option   value="9"> NINETH</optional>
+<option   value="10"> TENTH</optional>
+ 
+</select>
+
+<div><br></br>
+    BIRTH DATE: <input type="date"   name="bir_date"   id="bir_date">
+</div>
+
+</div><br/><br/>
+<div>
+ UPLOAD YOUR PREVIOUS YEAR RESULT<input type="file"/>
+</div>
+<div><br><br>
+  <label for="agree" >I AGREE ALL THE TERMS AND CONDITION  MENTIONED IN THE FORM</label>
+<input type ="checkbox"  name=" agree">
+</div>
+<div><br><br>
+<button  type=" submit">SUBMIT</button>
+</div>
+
+</form>
+</div>
+  <p>
+  You can check previous year batch student resutlt:<br><br>
+      <a href="file:///C:/Users/aadnya/OneDrive/Documents/GROUP%20PROJECT/PAGE.HTML">Visit student result::</a><br>
+
+</p>
+</body>
+</html>
