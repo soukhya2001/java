@@ -1,0 +1,38 @@
+QUESTION NO=1: 
+[A] 
+create database Emp1;
+use Emp1;
+create table Emp1(
+ E_id int unsigned  auto_increment primary key,
+ E_name varchar(50),
+ E_dept varchar(20),
+ E_sal bigint(15)
+);
+
+[B]
+
+insert into Emp1 values(1,'soukhya','IT',50000);
+insert into Emp1 values(2,'priyansh','Marketing',350000);
+insert into Emp1 values(3,'Arya','Sales',90000);
+insert into Emp1 values(4,'Rahaul','Addvetising',700000);
+insert into Emp1 values(5,'AAdnya','Hr',20000);
+
+[c]
+select E_sal,E_name from Emp1;
+
+
+UPDATE Emp1
+SET E_dept = 'Acounts'
+WHERE E_id = 5;
+
+UPDATE Emp1
+SET E_dept = 'Acounts'
+WHERE E_id = 1;
+
+[D]
+UPDATE Emp1
+SET E_dept = 'Finance'
+WHERE E_dept= 'Acounts';
+
+[E]
+delete from Emp1 where E_id=1;
