@@ -1,0 +1,7 @@
+#Q1
+
+-->Select count(E_dept) from employee where E_dept="HR";
+
+#Q2
+
+-->select * from employee where E_name like 's%';
