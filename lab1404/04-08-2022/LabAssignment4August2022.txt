@@ -1,0 +1,7 @@
+==> Question 1 <==
+
+ select * from EmployeeSalary where Salary>=5000 and Salary<=10000;
+
+==>Question 2 <==
+
+select * from EmployeeDetails where Fullname like'hn%';
